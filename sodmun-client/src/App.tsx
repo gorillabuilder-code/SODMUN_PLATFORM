@@ -32,10 +32,6 @@ const AppShell = () => {
             </nav>
           </div>
           <div style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
-            <span style={{ color: 'var(--text-muted)' }}>
-              {user.committee} ({user.role})
-            </span>
-            <button onClick={logout} style={{ padding: '6px 12px' }}>Logout</button>
           </div>
         </header>
       )}
