@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Root workspace for SODMUN Platform",
   "scripts": {
-    "dev": "concurrently \"npm run dev --prefix sodmun-server\" \"npm run dev --prefix sodmun-client\"",
+    "dev": "npm run dev --prefix sodmun-client",
     "install:all": "npm install && npm install --prefix sodmun-server && npm install --prefix sodmun-client"
   },
   "devDependencies": {
